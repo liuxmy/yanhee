@@ -1,2 +1,0 @@
-# yanhee
-learn and practice
