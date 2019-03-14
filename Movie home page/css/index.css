@@ -1,0 +1,86 @@
+body{
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000;
+}
+
+.top-bar{
+    background-color: red;}
+.head{
+    background:none;
+}
+
+@font-face {
+    font-family: dy;
+    src: url('../font-awesome-4.7.0/fonts/fontawesome-webfont.eot') format('embedded-opentype');
+    url('../font-awesome-4.7.0/fonts/fontawesome-webfont.svg') format('svg');
+    url('../font-awesome-4.7.0/fonts/fontawesome-webfont.ttf') format('truetype');
+    url('../font-awesome-4.7.0/fonts/fontawesome-webfont.woff') format('woff');
+}
+
+[class^="icon-"],
+[class*=" icon-"]{
+    font-family: dy;
+    font-style: normal;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 0px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+#dy_header .navbar-dy{
+    margin-bottom: 0;
+}
+#dy_header .navbar-dy.navbar-brand{
+    height: 70px;
+    padding: 0px 15px;
+}
+
+#dy_header.navbar-dy.navbar-nav li a:hover{
+    border-bottom: 2px solid #777;
+}
+.col-lg-3{
+    padding-right: 0;
+}
+.dy_dynamics{
+    background-color: #f0f0f0;
+    padding: 30px;
+}
+.dy_dynamics .row{
+    font-size: 18px;
+}
+.dy_dynamics .row a{
+    color: #999;
+}
+.dy_dynamics .row li.active a{
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid revert;
+}
+.tab-content{
+    padding-top: 20px;
+}
+.frLink{
+    font: 16px/1 "Microsoft YaHei";
+    padding-bottom: 30px;
+}
+.frLink div{
+    color:#000;
+    margin-bottom:20px;
+}
+.frLink p{
+    margin:0;
+    padding:0;
+}
+.frLink p a{
+    margin-left: 50px;
+    color:#666;
+}
+.frLink p a:hover{color:#2267ad;}
+.link{
+    padding-top: 10px;
+    margin-left: 50px;
+    font-size: 20px;
+}
